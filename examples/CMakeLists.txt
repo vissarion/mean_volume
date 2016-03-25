@@ -18,8 +18,9 @@ if ( CGAL_FOUND )
   find_package(Eigen3 3.1.0) 
   if (EIGEN3_FOUND) 
     include( ${EIGEN3_USE_FILE} ) 
-    include_directories (BEFORE "../include")
-    include_directories (BEFORE patches/include)
+    include_directories (BEFORE ../include)
+    include_directories (BEFORE ../external)
+    include_directories (BEFORE ../patches/include)
 
     create_single_source_cgal_program( "test_mean_vol.cpp" )
 

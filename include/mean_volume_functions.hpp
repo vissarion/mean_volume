@@ -29,7 +29,7 @@
 
 #include <Eigen/Eigen>
 
-#include "external/combination.h"
+#include "../external/combination.h"
 
 //typedef CGAL::Gmpq                                      NT;
 typedef double                                          NT;

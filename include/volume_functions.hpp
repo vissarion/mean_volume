@@ -25,7 +25,7 @@
 #include <CGAL/Epick_d.h>
 #include <CGAL/Triangulation.h>
 
-#include "external/combination.h"
+#include "../external/combination.h"
 
 typedef CGAL::Epick_d< CGAL::Dynamic_dimension_tag >    K_filtered;
 typedef CGAL::Triangulation<K_filtered>                 Triangulation;

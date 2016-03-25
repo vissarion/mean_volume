@@ -24,8 +24,8 @@
 #include <cstdlib>      // std::rand, std::srand
 #include <iostream>
 
-#include "include/mean_volume_functions.hpp"
-#include "include/volume_functions.hpp"
+#include "../include/mean_volume_functions.hpp"
+#include "../include/volume_functions.hpp"
 
 
 

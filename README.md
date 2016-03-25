@@ -3,7 +3,7 @@ of N points in D-dimensional space.
 
 MeanVol is using CGAL and Eigen libraries. All written in C++.
 
-To compile and use ResPol, you need first to compile the CGAL library, or
+To compile and use MeanVol, you need first to compile the CGAL library, or
 download the precompiled library (this software has been tested with CGAL
 4.7). You can follow these steps:
 
